@@ -1,0 +1,43 @@
+.grid-container > * {
+  border: 2px solid gold;
+  background-color: #eedcac;
+  padding: 30px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav  main Sidebar"
+    "nav main Advertising"
+    "footer footer footer";
+  gap: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .grid-container {
+    grid-template-areas:
+      "header"
+      "main"
+      "nav"
+      "Sidebar"
+      "Advertising"
+      "footer";
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "Sidebar main main"
+      "Sidebar main main"
+      "Advertising footer footer";
+  }
+  .nav ul , .nav li a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    
+  }
+}

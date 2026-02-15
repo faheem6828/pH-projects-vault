@@ -1,0 +1,20 @@
+.container,
+.inner {
+  height: 300px;
+  width: 300px;
+}
+.container {
+  border: 2px solid steelblue;
+  background-color: green;
+}
+.inner {
+  border: 2px solid tomato;
+  background-color: red;
+  color: white;
+  font-size: 50px;
+  transition: all 2s ease-in-out;
+}
+.inner:hover {
+  transform: rotate(45deg) scale(0.5);
+  border-radius: 100%;
+}

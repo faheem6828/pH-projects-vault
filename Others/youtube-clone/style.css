@@ -1,0 +1,66 @@
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yt-logo{
+  height: 100px;
+  width: 100px;
+  
+}
+.add-btn, .mic-btn, .bell-btn{
+  background-color: #3F3F3F;
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+  height: 25px;
+  width: 22px;
+}
+.pfp-btn, .bell-btn{
+  border-radius: 100%;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+.create-btn, {
+  display: flex;
+  justify-content: space-center;
+  align-items: center;
+  gap: 10px;
+  background-color: #3F3F3F;
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  border: none;
+  border-radius: 25px;
+  width: 150px;
+  font-weight: bold;
+}
+.mcp{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+form{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: none;
+  background-color: #3F3F3F;
+  height: 55px;
+  width: 45%;
+  justify-content: space-around;
+  border-radius: 25px;
+}
+form input{
+  background-color: #3F3F3F;
+  border: none;
+  padding: 10px;
+  color: whitesmoke;
+  width: 80%;
+}
+ .search-btn{
+  height: 20px;
+  width: 20px;
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <style>
+      *{
+         background-color: black;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 110px);
+        gap: 3px;
+       
+      }
+      .long {
+        grid-column: span 6;
+        grid-row: span 2;
+      }
+      .second01 {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      .secondlast01 {
+        grid-column: span 2;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      .normal{
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+      @media screen and (max-width:576px) {
+        .container{
+          display: block;   
+      }
+      
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="long">
+        <img src="./responsive-layout-example/images/A.jpg" alt="" />
+      </div>
+      <div class="second01">
+        <img src="./responsive-layout-example/images/B.jpg" alt="" />
+      </div>
+      <div class="second01">
+        <img src="./responsive-layout-example/images/C.jpg" alt="" />
+      </div>
+      <div class="secondlast01">
+        <img src="./responsive-layout-example/images/D.jpg"  />
+      </div>
+      <div class="secondlast01">
+        <img src="./responsive-layout-example/images/E.jpg" alt="" />
+      </div>
+      <div class="second01">
+        <img src="./responsive-layout-example/images/F.jpg" alt="" />
+      </div>
+      <div class="normal"><img src="./responsive-layout-example/images/G.jpg" alt=""></div>
+      <div class="normal"><img src="./responsive-layout-example/images/G.jpg" alt=""></div>
+      <div class="second01"><img src="./responsive-layout-example/images/I.jpg"></div>
+      <div class="normal"><img src="./responsive-layout-example/images/G.jpg" alt=""></div>
+      <div class="normal"><img src="./responsive-layout-example/images/G.jpg" alt=""></div>
+    </div>
+  </body>
+</html>
