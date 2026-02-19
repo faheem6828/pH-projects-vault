@@ -16,7 +16,7 @@ console.log(price2);
 // Nested ternary operator
 // if the bell rang, i will wake up or i won't. if the bell rang and if its not sunday, i will wake up else i won't.
 
-let bell = false;
+let bell = true;
 let isSunday = false;
 
 if (bell === true) {
