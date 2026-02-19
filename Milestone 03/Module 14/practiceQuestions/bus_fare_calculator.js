@@ -34,7 +34,7 @@ if (children) {
 } else if (student) {
   ticketPrice = ticketPrice * 0.5;
 } else if (seniorCitizen) {
-  ticketPrice = ticketPrice * 0.15;
+  ticketPrice = ticketPrice * 0.85;
 } else {
   ticketPrice = ticketPrice;
 }
