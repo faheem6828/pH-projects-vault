@@ -4,7 +4,17 @@
  */
 
 
-const fruits =['apple', 'mango', 'orange'];
-fruits[0] = 'Lichu';
-console.log(fruits)
+// const fruits =['apple', 'mango', 'orange'];
+// fruits[0] = 'Lichu';
+// console.log(fruits)
 
+
+
+let friends = ['balam', 'kalam', 'salam'];
+
+// console.log(friends.includes('balam'));
+// friends = friends.join('-');
+// console.log(friends.toUpperCase()); 
+
+friends.pop('balam');
+console.log(friends);
