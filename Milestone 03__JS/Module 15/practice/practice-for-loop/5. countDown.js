@@ -14,4 +14,6 @@ for (let i = 81; i >= 65; i--) {
   arr.push(i);
 }
 console.log(arr);
+console.log('The length of the Array :',arr.length)
 console.log("the sum of the numbers:", sum);
+
